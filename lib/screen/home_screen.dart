@@ -37,7 +37,7 @@ class HomeScreen extends StatelessWidget {
                   Navigator.pushNamed(context, '/check');
                 }),
                 child: Text(
-                  "점검하기",
+                  "시험",
                   style: TextStyle(fontSize: 80.h),
                 ),
                 style:

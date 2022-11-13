@@ -4,6 +4,9 @@ import 'package:japelling/screen/auto_screen.dart';
 import 'package:japelling/screen/check_screen.dart';
 import 'package:japelling/screen/home_screen.dart';
 import 'package:japelling/screen/infinity_screen.dart';
+import 'package:japelling/screen/mc_scree.dart';
+import 'package:japelling/screen/result_screen.dart';
+import 'package:japelling/screen/subjective_screen.dart';
 import 'package:japelling/screen/table_screen.dart';
 
 void main() {
@@ -26,7 +29,10 @@ class MyApp extends StatelessWidget {
           "/table": (context) => TableScreen(),
           "/infinity": (context) => InfinityScreen(),
           "/check": (context) => CheckScreen(),
-          "/auto": (context) => AutoScreen()
+          "/auto": (context) => AutoScreen(),
+          "/subjective":(context) => SubjectiveScreen(),
+          "/mc":(context) => McScreen(),
+          "/result":(context) => ResultScreen()
         },
         initialRoute: '/',
       );
